@@ -1,0 +1,15 @@
+Database Schema:
+
+Collection :
+ 
+user{
+   name: String,
+   Password:String,
+   Email: String
+}
+
+Discription:
+This is the collection that i have imparted in the application for displaying the user credentials on the home screen after the login.
+
+Authentication:
+     I have used the Firebase Authentication to login, sign-in, and forgot-password functionalities.I have used email/password  provider authentication which is an internally modified version of scrypt to hash account passwords. Even when an account is uploaded with a password using a different algorithm, Firebase Auth will rehash the password the first time that account successfully logs in.
