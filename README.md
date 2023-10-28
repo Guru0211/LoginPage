@@ -1,16 +1,23 @@
 # tech_a_thon
 
-A new Flutter project.
+Features
+Email/Password Authentication: Users can sign up and log in using their email and password.
 
-## Getting Started
+Google Sign-In: Users can log in using their Google accounts.
 
-This project is a starting point for a Flutter application.
+Firebase Integration: Firebase Authentication and Firestore are integrated for user authentication and data storage.
 
-A few resources to get you started if this is your first Flutter project:
+Project Structure
+lib/: Contains the Flutter application code.
+main.dart: Entry point of the app.
+screens/: Contains the different screens of the application.
+services/: Firebase authentication and Firestore services.
+widgets/: Reusable UI components.
+Usage
+You can customize this Flutter Firebase login page to fit your specific requirements. You can also add more features and functionality to enhance the user experience.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Contributing
+Contributions are welcome! If you have any improvements or feature suggestions, feel free to create a pull request or open an issue.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+License
+This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it according to the terms of the license.
